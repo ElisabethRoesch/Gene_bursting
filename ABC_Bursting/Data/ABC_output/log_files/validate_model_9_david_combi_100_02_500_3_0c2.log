@@ -1,0 +1,483 @@
+Run started at  Sat Aug 25 21:52:09 BST 2018
+
+signal (15): Terminated
+while loading /project/home17/er4517/project_3/gene_bursting/ABC_Bursting/Code/src-test/abc-smc-validation-simulation/validate_model_9_david_combi_100_02_500_3_0c2.jl, in expression starting on line 303
+syscall at /lib64/libc.so.6 (unknown line)
+uv__epoll_wait at /buildworker/worker/package_linux64/build/deps/srccache/libuv-d8ab1c6a33e77bf155facb54215dd8798e13825d/src/unix/linux-syscalls.c:321
+uv__io_poll at /buildworker/worker/package_linux64/build/deps/srccache/libuv-d8ab1c6a33e77bf155facb54215dd8798e13825d/src/unix/linux-core.c:267
+uv_run at /buildworker/worker/package_linux64/build/deps/srccache/libuv-d8ab1c6a33e77bf155facb54215dd8798e13825d/src/unix/core.c:354
+process_events at ./libuv.jl:82 [inlined]
+wait at ./event.jl:216
+wait at ./event.jl:27
+wait_readnb at ./stream.jl:296
+eof at ./stream.jl:56
+#25 at ./event.jl:73
+unknown function (ip: 0x7f8be6c81a0f)
+jl_call_fptr_internal at /buildworker/worker/package_linux64/build/src/julia_internal.h:339 [inlined]
+jl_call_method_internal at /buildworker/worker/package_linux64/build/src/julia_internal.h:358 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:1926
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1424 [inlined]
+start_task at /buildworker/worker/package_linux64/build/src/task.c:267
+unknown function (ip: 0xffffffffffffffff)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 31935727 (Pool: 31932453; Big: 3274); GC: 42
+
+signal (15): Terminated
+while loading /project/home17/er4517/project_3/gene_bursting/ABC_Bursting/Code/src-test/abc-smc-validation-simulation/validate_model_9_david_combi_100_02_500_3_0c2.jl, in expression starting on line 303
+syscall at /lib64/libc.so.6 (unknown line)
+uv__epoll_wait at /buildworker/worker/package_linux64/build/deps/srccache/libuv-d8ab1c6a33e77bf155facb54215dd8798e13825d/src/unix/linux-syscalls.c:321
+uv__io_poll at /buildworker/worker/package_linux64/build/deps/srccache/libuv-d8ab1c6a33e77bf155facb54215dd8798e13825d/src/unix/linux-core.c:267
+uv_run at /buildworker/worker/package_linux64/build/deps/srccache/libuv-d8ab1c6a33e77bf155facb54215dd8798e13825d/src/unix/core.c:354
+process_events at ./libuv.jl:82 [inlined]
+wait at ./event.jl:216
+wait at ./event.jl:27
+wait_readnb at ./stream.jl:296
+eof at ./stream.jl:56
+#25 at ./event.jl:73
+unknown function (ip: 0x7f8be6c81a0f)
+jl_call_fptr_internal at /buildworker/worker/package_linux64/build/src/julia_internal.h:339 [inlined]
+jl_call_method_internal at /buildworker/worker/package_linux64/build/src/julia_internal.h:358 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:1926
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1424 [inlined]
+start_task at /buildworker/worker/package_linux64/build/src/task.c:267
+unknown function (ip: 0xffffffffffffffff)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 31935727 (Pool: 31932453; Big: 3274); GC: 42
+WARNING: No working GUI backend found for matplotlib
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+WARNING: Interrupted. Larger maxiters is needed.
+fatal error on 2: ERROR: ArgumentError: stream is closed or unusable
+Stacktrace:
+ [1] check_open(::TCPSocket) at ./stream.jl:251
+ [2] uv_write(::TCPSocket, ::Ptr{UInt8}, ::UInt64) at ./stream.jl:795
+ [3] flush(::TCPSocket) at ./stream.jl:857
+ [4] send_msg_(::Base.Distributed.Worker, ::Base.Distributed.MsgHeader, ::Base.Distributed.ResultMsg, ::Bool) at ./distributed/messages.jl:187
+ [5] send_msg_now(::Base.Distributed.Worker, ::Base.Distributed.MsgHeader, ::Base.Distributed.ResultMsg) at ./distributed/messages.jl:129
+ [6] send_msg_now(::TCPSocket, ::Base.Distributed.MsgHeader, ::Base.Distributed.ResultMsg) at ./distributed/messages.jl:124
+ [7] deliver_result(::TCPSocket, ::Symbol, ::Base.Distributed.RRID, ::RemoteException) at ./distributed/process_messages.jl:88
+ [8] macro expansion at ./distributed/process_messages.jl:269 [inlined]
+ [9] (::Base.Distributed.##105#107{Base.Distributed.CallMsg{:call_fetch},Base.Distributed.MsgHeader,TCPSocket})() at ./event.jl:73

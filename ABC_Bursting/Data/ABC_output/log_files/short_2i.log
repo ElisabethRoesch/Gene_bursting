@@ -1,0 +1,8 @@
+Run started at  Mon Jul 2 18:06:16 BST 2018
+ERROR: could not open file /project/home17/er4517/project_3/gene_bursting/ABC_Bursting/Code/src-test/ABC_SMC_RNAseq_fixedparams_2i.jl
+Stacktrace:
+ [1] include_from_node1(::String) at ./loading.jl:576
+ [2] include(::String) at ./sysimg.jl:14
+ [3] process_options(::Base.JLOptions) at ./client.jl:305
+ [4] _start() at ./client.jl:371
+Run finished at  Mon Jul 2 18:06:19 BST 2018

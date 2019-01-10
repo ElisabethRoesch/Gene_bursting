@@ -1,0 +1,30 @@
+Run started at  Fri Aug 3 11:55:57 BST 2018
+WARNING: No working GUI backend found for matplotlib
+WARNING: No working GUI backend found for matplotlib
+ERROR: LoadError: On worker 2:
+UndefVarError: cell_cycle_simulation_generate_single_simulation_samples_m1_12500_12500 not defined
+macro expansion at /project/home17/er4517/project_3/gene_bursting/ABC_Bursting/Code/src-test/cell_cycle/ABC_SMC_fixedparams_model_1_cell_cycle_serum_genes_12500_12500.jl:40 [inlined]
+#9 at ./distributed/macros.jl:174
+#158 at ./distributed/macros.jl:20
+#103 at ./distributed/process_messages.jl:264 [inlined]
+run_work_thunk at ./distributed/process_messages.jl:56
+run_work_thunk at ./distributed/process_messages.jl:65 [inlined]
+#96 at ./event.jl:73
+Stacktrace:
+ [1] #remotecall_fetch#141(::Array{Any,1}, ::Function, ::Function, ::Base.Distributed.Worker, ::Base.Distributed.RRID, ::Vararg{Any,N} where N) at ./distributed/remotecall.jl:354
+ [2] remotecall_fetch(::Function, ::Base.Distributed.Worker, ::Base.Distributed.RRID, ::Vararg{Any,N} where N) at ./distributed/remotecall.jl:346
+ [3] #remotecall_fetch#144(::Array{Any,1}, ::Function, ::Function, ::Int64, ::Base.Distributed.RRID, ::Vararg{Any,N} where N) at ./distributed/remotecall.jl:367
+ [4] remotecall_fetch(::Function, ::Int64, ::Base.Distributed.RRID, ::Vararg{Any,N} where N) at ./distributed/remotecall.jl:367
+ [5] call_on_owner(::Function, ::Future, ::Int64, ::Vararg{Int64,N} where N) at ./distributed/remotecall.jl:440
+ [6] wait(::Future) at ./distributed/remotecall.jl:455
+ [7] sync_end() at ./task.jl:274
+ [8] include_from_node1(::String) at ./loading.jl:576
+ [9] include(::String) at ./sysimg.jl:14
+ [10] process_options(::Base.JLOptions) at ./client.jl:305
+ [11] _start() at ./client.jl:371
+while loading /project/home17/er4517/project_3/gene_bursting/ABC_Bursting/Code/src-test/cell_cycle/ABC_SMC_fixedparams_model_1_cell_cycle_serum_genes_12500_12500.jl, in expression starting on line 303
+Start include.
+Starting
+Any["ENSMUSG00000003032", "ENSMUSG00000012396", "ENSMUSG00000018604", "ENSMUSG00000020717", "ENSMUSG00000021255", "ENSMUSG00000021835", "ENSMUSG00000022528", "ENSMUSG00000025056", "ENSMUSG00000038793", "ENSMUSG00000048402", "ENSMUSG00000051176"]Ready
+	From worker 2:	Parameters set for ENSMUSG00000012396
+Run finished at  Fri Aug 3 11:57:39 BST 2018

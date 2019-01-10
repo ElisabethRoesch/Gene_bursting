@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# ---  qsub -v MYARGUMENTS="1.0 2.0 3 4 5 output.txt" run_ABC.sh
+
+cd $PBS_O_WORKDIR
+
+count=0
+for i in $MYARGUMENTS
+do
+list[$count]="$i"
+count=$(( count+1 ))
+done
+if [ $count != "6" ]; then
+  echo "You do not have 6 arguments" > $output_log_file
+  exit 1
+  fi
+
+n_processes=${list[0]}
+ABC_file=${list[1]}
+start_index=${list[2]}
+end_index=${list[3]}
+output_file=${list[4]}
+output_log_file=${list[5]}
+
+echo "Run started at " `date` > $output_log_file
+
+module load julia/0.6.2
+
+julia -p $n_processes $ABC_file $start_index $end_index $output_file  >> $output_log_file 2>&1
+
+echo "Run finished at " `date` >> $output_log_file

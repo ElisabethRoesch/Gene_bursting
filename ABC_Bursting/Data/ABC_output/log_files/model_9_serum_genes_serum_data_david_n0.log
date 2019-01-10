@@ -1,0 +1,8 @@
+Run started at  Mon Aug 27 23:59:51 BST 2018
+ERROR: could not open file /project/home17/er4517/project_3/gene_bursting/ABC_Bursting/Code/src-test/model_9/ABC_SMC_model_9_serum_genes_serum_data0.jl
+Stacktrace:
+ [1] include_from_node1(::String) at ./loading.jl:576
+ [2] include(::String) at ./sysimg.jl:14
+ [3] process_options(::Base.JLOptions) at ./client.jl:305
+ [4] _start() at ./client.jl:371
+Run finished at  Mon Aug 27 23:59:54 BST 2018

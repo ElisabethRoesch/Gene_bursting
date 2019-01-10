@@ -1,0 +1,32 @@
+
+for name in 1:length(genes)
+      acts_2i = []
+      deacts_2i = []
+      degs_2i = []
+      for i in 1:length(sampled_parameter_combinations_2i[name])
+            push!(acts_2i,convert(Float64,sampled_parameter_combinations_2i[name][i][1]))
+            push!(deacts_2i,convert(Float64,sampled_parameter_combinations_2i[name][i][2]))
+            push!(degs_2i,convert(Float64,sampled_parameter_combinations_2i[name][i][3]))
+      end
+      a=convert(Array{Float64,1},acts_2i)
+      b=convert(Array{Float64,1},deacts_2i)
+      c=convert(Array{Float64,1},degs_2i)
+      a2= [10^n for n in a]
+      b2= [10^n for n in b]
+      c2= [10^n for n in c]
+      push!(acts_2i, a2)
+      push!(deacts_2i, b2)
+      push!(degs_2i, c2)
+end
+plot_cs = vcat(data_file_2i[4],data_file_serum[4],)
+x1 = fill("2i",length(data_file_2i[4]))
+x2 = fill("serum",length(data_file_serum[4]))
+xes = vcat(x1,x2,x1,x2,x1,x2)
+models = fill("Nanog",2*length(data_file_serum[4]))
+gene = pd.DataFrame(data= Dict( :Models=> models, :c=>(plot_cs), :Condition=>xes))
+fig,ax = PyPlot.subplots(figsize=(10,10))
+ax = sns.boxplot(x="Models", y="c",data=gene, hue="Condition", palette="Set1")
+
+ax[:legend](fontsize=16, loc ="upper right")
+ax[:set_ylabel]("Feedback k",fontsize=16)
+ax[:set_xlabel]("",fontsize=16)

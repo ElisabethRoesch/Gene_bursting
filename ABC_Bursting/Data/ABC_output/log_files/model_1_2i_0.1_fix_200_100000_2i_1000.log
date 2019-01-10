@@ -1,0 +1,13 @@
+Run started at  Mon Jul 30 15:44:42 BST 2018
+WARNING: No working GUI backend found for matplotlib
+fatal error on 2: ERROR: ArgumentError: stream is closed or unusable
+Stacktrace:
+ [1] check_open(::TCPSocket) at ./stream.jl:251
+ [2] uv_write(::TCPSocket, ::Ptr{UInt8}, ::UInt64) at ./stream.jl:795
+ [3] flush(::TCPSocket) at ./stream.jl:857
+ [4] send_msg_(::Base.Distributed.Worker, ::Base.Distributed.MsgHeader, ::Base.Distributed.ResultMsg, ::Bool) at ./distributed/messages.jl:187
+ [5] send_msg_now(::Base.Distributed.Worker, ::Base.Distributed.MsgHeader, ::Base.Distributed.ResultMsg) at ./distributed/messages.jl:129
+ [6] send_msg_now(::TCPSocket, ::Base.Distributed.MsgHeader, ::Base.Distributed.ResultMsg) at ./distributed/messages.jl:124
+ [7] deliver_result(::TCPSocket, ::Symbol, ::Base.Distributed.RRID, ::RemoteException) at ./distributed/process_messages.jl:88
+ [8] macro expansion at ./distributed/process_messages.jl:269 [inlined]
+ [9] (::Base.Distributed.##105#107{Base.Distributed.CallMsg{:call_fetch},Base.Distributed.MsgHeader,TCPSocket})() at ./event.jl:73
